@@ -18,8 +18,10 @@ if [ $(which brew) ]; then
 	# Utilities
 	brew cask install alfred
 	brew cask install google-chrome
+	brew cask install google-play-desktop-music-player
 	brew cask install keepingyouawake
 	brew cask install 1password
+	brew cask install veracrypt
 
 	# Android
 	brew cask install android-studio genymotion
@@ -39,9 +41,9 @@ if [ $(which brew) ]; then
 	brew cask install python3
 
 	# Virtualization
-	brew cask install virtualbox vagrant
+	brew cask install virtualbox vagrant vagrant-manager
 	brew cask install dropbox
-	brew cask install docker-toolbox
+	brew cask install docker
 
 	# Terminal
 	brew install tmux
